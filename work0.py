@@ -15,8 +15,8 @@ a', 'Edward', 'Jonathan', 'Celine', 'Daniel', 'Lindsey', 'Ziyan', 'Elina'],
 def randomizer(period):
     rand_student = random.choice(CLASSES[period])
     result = 'Random student from period ' + str(period) + ': ' + rand_student
-    print result
+    return result
 
-randomizer(4)
-randomizer(8)
-randomizer(9)
+print randomizer(4)
+print randomizer(8)
+print randomizer(9)
